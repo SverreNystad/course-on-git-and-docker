@@ -45,3 +45,26 @@ git clone https://github.com/SverreNystad/git-course.git
 ### Task 4: Dealing with Merge conflicts
 
 
+
+## Part 2: Docker
+
+### Task 0:
+Install Docker on your machine follow the link for your OS
+* [Install on Windows](https://docs.docker.com/desktop/install/windows-install/)
+* [Install on Mac](https://docs.docker.com/desktop/install/mac-install/)
+
+* [Install on Linux](https://docs.docker.com/desktop/install/linux-install/)
+  * This scrip also does the trick
+    ```bash
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sh get-docker.sh
+    ```
+
+### Task 1: Run a docker container
+
+```bash
+docker compose build
+docker compose up
+```
+
+### Task 2: Build a docker image
