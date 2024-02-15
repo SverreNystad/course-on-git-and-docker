@@ -99,4 +99,15 @@ docker compose down
 ```
 
 ### Task 2: Build a docker image
-In the last task you shall create a `Dockerfile` that builds a docker image that runs our hello world application.
+In the last task you shall edit the `Dockerfile` that builds a docker image that runs our hello world application.
+
+To build the image, open a terminal/cmd and write
+```bash
+docker build -t hello-world .
+```
+
+To run the image, open a terminal/cmd and write
+```bash
+docker run hello-world
+```
+
