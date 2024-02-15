@@ -37,6 +37,7 @@ If you get a version number, you are good to go.
 ```bash
 git clone https://github.com/SverreNystad/git-course.git
 ```
+then change to the directory `git-course`
 
 ### Task 2: Adding a file to the repository
 1. Create a new file named after your first and last name in the greeting_of_cogito folder. Write a greeting message to the rest of the members.
