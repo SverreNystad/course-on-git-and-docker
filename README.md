@@ -87,13 +87,25 @@ To run an example docker container, open a terminal/cmd and write
 docker run hello-world
 ```
 
-Change to the directory `docker/hello_world` and build and run the docker container
+Change to the directory `docker/hello_world` and pull and run the docker container
 ```bash
-docker compose build
+docker compose up
+```
+this container exits after completion.
+
+For the next example change to the directory `docker/many_apps` and we will look at a more complex compose file
+
+To run this:
+```bash
 docker compose up
 ```
 
-Remember to stop the container after you are done
+If you look into it we will be deploying 3 services, check them out using the links and/or look through the compose file
+- Postgres DB
+- Firefox browser (browser running withing a container) [link](localhost:8091)
+- Uptime kuma (a web app) [link](localhost:8090)
+
+This time we need to turn the stack off as these applications will run continuously:
 ```bash	
 docker compose down
 ```
