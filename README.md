@@ -38,21 +38,13 @@ git clone https://github.com/SverreNystad/git-course.git
 ```
 
 ### Task 2: Adding a file to the repository
-You shall create a new file with your first and last name where you greet the rest of the members of cogito in the folder `greeting_of_cogito`. Add the file to the repository and commit the changes.
+1. Create a new file named after your first and last name in the greeting_of_cogito folder. Write a greeting message to the rest of the members.
+2. Add and commit the new file to the repository:
 
 ```bash
 git add .
-```
-
-```bash
-git commit -m "feat: DESCRIPTION OF THE CHANGES MADE"
-```
-
-```bash
+git commit -m "feat: Add greeting from [Your Name]"
 git pull
-```
-  
-```bash
 git push
 ```
 
