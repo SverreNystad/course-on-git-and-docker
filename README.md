@@ -93,4 +93,10 @@ docker compose build
 docker compose up
 ```
 
+Remember to stop the container after you are done
+```bash	
+docker compose down
+```
+
 ### Task 2: Build a docker image
+In the last task you shall create a `Dockerfile` that builds a docker image that runs our hello world application.
