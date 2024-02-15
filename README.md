@@ -38,11 +38,40 @@ git clone https://github.com/SverreNystad/git-course.git
 ```
 
 ### Task 2: Adding a file to the repository
+You shall create a new file with your first and last name where you greet the rest of the members of cogito in the folder `greeting_of_cogito`. Add the file to the repository and commit the changes.
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "feat: DESCRIPTION OF THE CHANGES MADE"
+```
+
+```bash
+git pull
+```
+  
+```bash
+git push
+```
+
 
 
 ### Task 3: Branching
 
+
+
 ### Task 4: Dealing with Merge conflicts
+In this task you will need to merge the `feat-hello-universe` into `main` branch. 
+This will cause a merge conflict that you will need to resolve.
+
+To see the difference between the two branches you can use the following command
+```bash
+git diff main feat-hello-universe
+```
+
+Try to use git merge to merge the `feat-hello-universe` into `main` branch and resolve the merge conflict.
 
 
 
