@@ -1,4 +1,5 @@
 # Git and Docker Course
+Accompanying presentation can be found [here](https://docs.google.com/presentation/d/1haH8cLeZ95V6aTcdJPhm0mP9muZv_u7NCb_go_Od8s8/edit#slide=id.g2b9969c2c06_0_0)
 
 ## Part 1: Git
 
@@ -52,13 +53,34 @@ git push
 In this task you will need to merge the `feat-hello-universe` into `main` branch. 
 This will cause a merge conflict that you will need to resolve.
 
+First of all make sure both branches are in your local repository
+```bash
+git branch --list
+```
+you should have at least two branches `main` and `feat-hello-universe`
+
+if not you can fetch the branches from the remote repository by using the following command
+```bash
+git fetch origin feat-hello-universe
+git checkout feat-hello-universe
+```
+
+to switch back to the main branch you can use the following command
+```bash
+git checkout main
+```
+
 To see the difference between the two branches you can use the following command
 ```bash
 git diff main feat-hello-universe
 ```
 
-Try to use git merge to merge the `feat-hello-universe` into `main` branch and resolve the merge conflict.
+Now try to merge the `feat-hello-universe` into `main` branch and resolve the merge conflict.
+```bash
+git merge main feat-hello-universe
+```
 
+Feel free to use any text editor to resolve the merge conflict, after you have resolved the conflict you can add and commit the changes. (don't push the changes this time around)
 
 
 ## Part 2: Docker
@@ -79,6 +101,7 @@ To validate that docker is installed, open a terminal/cmd and write
 ```bash
 docker --version
 ```
+further more you might have to start the docker daemon (if it has not started already), by opening the docker desktop application and going through the setup.
 
 ### Task 1: Run a docker container
 
