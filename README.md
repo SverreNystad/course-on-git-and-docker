@@ -82,6 +82,12 @@ docker --version
 
 ### Task 1: Run a docker container
 
+To run an example docker container, open a terminal/cmd and write
+```bash	
+docker run hello-world
+```
+
+Change to the directory `docker/hello_world` and build and run the docker container
 ```bash
 docker compose build
 docker compose up
