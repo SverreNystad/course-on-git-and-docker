@@ -48,13 +48,7 @@ git pull
 git push
 ```
 
-
-
-### Task 3: Branching
-
-
-
-### Task 4: Dealing with Merge conflicts
+### Task 3: Dealing with Merge conflicts
 In this task you will need to merge the `feat-hello-universe` into `main` branch. 
 This will cause a merge conflict that you will need to resolve.
 
@@ -80,6 +74,11 @@ Install Docker on your machine follow the link for your OS
     curl -fsSL https://get.docker.com -o get-docker.sh
     sh get-docker.sh
     ```
+
+To validate that docker is installed, open a terminal/cmd and write
+```bash
+docker --version
+```
 
 ### Task 1: Run a docker container
 
