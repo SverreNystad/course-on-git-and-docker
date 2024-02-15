@@ -1,6 +1,6 @@
 
 def hello_world():
-    print("Hello, beautiful Universe!")
+    print("Hello, beautiful Universe! Cogito is amazing!")
 
 
 
